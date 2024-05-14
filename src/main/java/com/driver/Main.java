@@ -17,7 +17,7 @@ class B extends A {
 public class Main {
     public static void main(String[] args) {
         // Task 3: Create an object of class B and call method meth of class A with it
-        A objB = new B();
-        System.out.println(objB.meth()); // This will call the overridden method from class B
+        A objA = new B();
+        System.out.println(objA.meth()); // This will call the overridden method from class B
     }
 }
